@@ -1,0 +1,11 @@
+QuantumGuardian-Pro/
+└── src/
+    ├── cli.py
+    ├── watcher.py          # Event Watcher (Watchdog)
+    ├── features.py         # Feature extraction
+    ├── risk.py             # Heuristic + statistical risk scoring
+    ├── quarantine.py       # Safe quarantine workflow
+    ├── fusion.py           # TRINITY-style score fusion
+    ├── intel.py            # EAGLE EYE (threat intel stubs)
+    ├── utils.py            # hashing, logging, paths
+    └── settings.py         # thresholds, weights
